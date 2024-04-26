@@ -42,7 +42,7 @@ then
     exit $ret
 fi
 
-ctest -VVr
+ctest -VV
 
 ret=$?
 if [ $ret -ne 0 ]
